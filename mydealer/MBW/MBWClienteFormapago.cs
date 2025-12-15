@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace mydealer
+{
+    public class MBWClienteFormapago
+    {
+        string codcliente;
+
+        public string Codcliente
+        {
+            get { return codcliente; }
+            set { codcliente = value; }
+        }
+        int codformapago;
+
+        public int Codformapago
+        {
+            get { return codformapago; }
+            set { codformapago = value; }
+        }
+    }
+}
